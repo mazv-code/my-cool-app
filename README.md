@@ -1,1 +1,3 @@
 # my-cool-app
+
+This is the v0.2 version of my cool app, we will include this text to see if they go over and make any difference on the output from the LLM. This is getting pretty fun.
