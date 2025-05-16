@@ -27,11 +27,12 @@ func FibonacciRecursion(n int) int {
 
 func main() {
     for i := 0; i <= 9; i++ {
-        fmt.Print(strconv.Itoa(FibonacciLoop(i)) + " ")
+        fmt.Print(strconv.Itoa(FibonacciLoop(i)) + " | ")
     }
     fmt.Println("")
     for i := 0; i <= 9; i++ {
-        fmt.Print(strconv.Itoa(FibonacciRecursion(i)) + " ")
+        fmt.Print(strconv.Itoa(FibonacciRecursion(i)) + " | ")
     }
     fmt.Println("")
+    fmt.Prinln("HERE IS YOUR FIBONACCI PRINTED OUT")
 }
